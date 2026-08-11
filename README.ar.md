@@ -88,6 +88,7 @@
 *تصميم هيكل الجدول في SQL.*
 
 [![إجمالي الشحنات ونسبة التأخير](Images/total_deliveries_delayed_percentage.png)](Images/total_deliveries_delayed_percentage.png)
+
 *حساب إجمالي عدد الشحنات (25,000) ونسبة التأخير الإجمالية (26.68%) — تقريباً 1 من كل 4 شحنات بتتأخر.*
 
 [![متوسط التكلفة والتقييم](Images/avg_delivery_cost_rating.png)](Images/avg_delivery_cost_rating.png)
@@ -107,9 +108,11 @@
 *حساب متوسط مسافة الشحن (150.39 كم) ومتوسط وزن الطرد (25.15 كجم) عبر كل الشحنات.*
 
 [![الأحوال الجوية مقابل التأخير](Images/weather_vs_delayed.png)](Images/weather_vs_delayed.png)
+
 *مقارنة نسب التأخير عبر الأحوال الجوية المختلفة. الجو العاصف (41.45%) والممطر (37.35%) يظهران نسب تأخير أعلى بكتير من الجو الصافي (17.43%) أو البارد (16.02%).*
 
 [![نسبة التأخير حسب الشركة والمركبة](Images/delay_rate_by_partner_vehicle.png)](Images/delay_rate_by_partner_vehicle.png)
+
 *تحليل نسب التأخير حسب مجموعة شركة الشحن ونوع المركبة. الملاحظة المهمة: مفيش مجموعة واحدة بتتميز بشكل واضح — الفارق بين أعلى وأدنى 10 مجموعات ضيق جداً (28.93%–31.72%)، مما يشير لأن التأخيرات مرتبطة أكتر بعوامل خارجية (جو، مسافة) مش بالشركة أو المركبة نفسها.*
 
 [![طريقة التوصيل مقابل التقييم](Images/delivery_mode_vs_rating.png)](Images/delivery_mode_vs_rating.png)
@@ -125,6 +128,7 @@
 ### 📊 لوحة Excel
 
 [![لوحة Excel](Images/Excel_Dashboard.png)](Images/Excel_Dashboard.png)
+
 *بناء لوحة تفاعلية في Excel باستخدام Pivot Tables و Pivot Charts، مع فلاتر لشركة الشحن والإقليم وطريقة التوصيل للتصفية السريعة والتحليل المتقاطع.*
 
 ---

@@ -88,6 +88,7 @@ This analysis answers key business questions across two difficulty levels:
 *Designed the relational table schema in SQL.*
 
 [![Total Deliveries & Delayed Percentage](Images/total_deliveries_delayed_percentage.png)](Images/total_deliveries_delayed_percentage.png)
+
 *Calculated the total number of deliveries (25,000) and the overall delay rate (26.68%) — roughly 1 in 4 shipments is delayed.*
 
 [![Average Delivery Cost & Rating](Images/avg_delivery_cost_rating.png)](Images/avg_delivery_cost_rating.png)
@@ -111,12 +112,15 @@ This analysis answers key business questions across two difficulty levels:
 *Compared delay rates across weather conditions. Stormy (41.45%) and rainy (37.35%) conditions show significantly higher delay rates than clear (17.43%) or cold (16.02%) conditions.*
 
 [![Delay Rate by Partner & Vehicle](Images/delay_rate_by_partner_vehicle.png)](Images/delay_rate_by_partner_vehicle.png)
+
 *Analyzed delay rates by delivery partner and vehicle type combination. Notably, no single combination stands out significantly — delay rates across the top 10 combinations range narrowly between 28.93% and 31.72%, suggesting delays are driven more by external factors (weather, distance) than by the partner or vehicle type itself.*
 
 [![Delivery Mode vs Rating](Images/delivery_mode_vs_rating.png)](Images/delivery_mode_vs_rating.png)
+
 *Compared average customer ratings across delivery modes. Express delivery scored the lowest (2.72) despite being the fastest option — likely because higher customer expectations amplify the impact of any delay or issue.*
 
 [![Distance vs Cost](Images/distance_vs_cost.png)](Images/distance_vs_cost.png)
+
 *Grouped deliveries into distance ranges and calculated average cost per range. A clear linear relationship emerged — cost increases consistently with distance, from 239.64 for 0–50 km up to 1,365.76 for 200+ km.*
 
 ---
@@ -124,6 +128,7 @@ This analysis answers key business questions across two difficulty levels:
 ### 📊 Excel Dashboard
 
 [![Excel Dashboard](Images/Excel_Dashboard.png)](Images/Excel_Dashboard.png)
+
 *Built an interactive Excel dashboard using Pivot Tables and Pivot Charts, with slicers for Delivery Partner, Region, and Delivery Mode to allow quick filtering and cross-analysis.*
 
 ---
