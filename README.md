@@ -84,24 +84,30 @@ This analysis answers key business questions across two difficulty levels:
 ### 🗄️ SQL Implementation & Analysis
 
 [![Create Table](Images/Create_Table.png)](Images/Create_Table.png)
-*Designed the relational table schema in SQL. A `row_id SERIAL PRIMARY KEY` was used instead of `delivery_id` due to duplicate and decimal values found in the original column.*
+
+*Designed the relational table schema in SQL.*
 
 [![Total Deliveries & Delayed Percentage](Images/total_deliveries_delayed_percentage.png)](Images/total_deliveries_delayed_percentage.png)
 *Calculated the total number of deliveries (25,000) and the overall delay rate (26.68%) — roughly 1 in 4 shipments is delayed.*
 
 [![Average Delivery Cost & Rating](Images/avg_delivery_cost_rating.png)](Images/avg_delivery_cost_rating.png)
+
 *Calculated the average delivery cost (864.94) and average customer rating (3.67 out of 5) across all shipments.*
 
 [![Deliveries by Region](Images/deliveries_by_region.png)](Images/deliveries_by_region.png)
+
 *Grouped deliveries by region, showing a balanced distribution of approximately 5,000 shipments per region — ensuring statistically fair comparisons across regions.*
 
 [![Deliveries by Status](Images/deliveries_by_status.png)](Images/deliveries_by_status.png)
+
 *Broke down deliveries by status: 18,331 delivered, 5,341 delayed, and 1,328 failed.*
 
 [![Average Distance & Weight](Images/avg_distance_weight.png)](Images/avg_distance_weight.png)
+
 *Calculated the average shipment distance (150.39 km) and average package weight (25.15 kg) across all deliveries.*
 
 [![Weather vs Delayed](Images/weather_vs_delayed.png)](Images/weather_vs_delayed.png)
+
 *Compared delay rates across weather conditions. Stormy (41.45%) and rainy (37.35%) conditions show significantly higher delay rates than clear (17.43%) or cold (16.02%) conditions.*
 
 [![Delay Rate by Partner & Vehicle](Images/delay_rate_by_partner_vehicle.png)](Images/delay_rate_by_partner_vehicle.png)
@@ -152,7 +158,7 @@ This analysis answers key business questions across two difficulty levels:
 
 ## ⚠️ Data Quality Notes
 
-- **`delivery_id`:** The original column contained duplicate values and decimal IDs (e.g. 250.99), making it unsuitable as a Primary Key. A `row_id SERIAL` column was used instead.
+- **`delivery_id`:** The original column contained duplicate values and decimal IDs (e.g. 250.99), making it unsuitable as a Primary Key.
 - **`delivery_time_hours` & `expected_time_hours`:** Both columns were entirely zero-valued in the dataset, making it impossible to answer the planned question on delivery time gaps (Section 2, Question 5). The original dataset is preserved in the repository for reference.
 
 ---
